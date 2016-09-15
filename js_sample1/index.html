@@ -1,0 +1,21 @@
+<script src="jquery.js"></script>
+<script src="js.js"></script>
+	Select shape:&nbsp;
+	<select name="shape" id="shape" onchange="selectedshape();">
+		<option value="1">Square</option>
+		<option value="2">Rectangle</option>
+		<option value="3">Parallelogram</option>
+	</select>
+	<br />
+	<br />
+
+	Enter Side 1:<input type="text" name="side1" id="side1" /><br />
+	Enter Side 2:<input type="text" name="side2" id="side2" /><br />
+
+	<br />
+	<button onclick="computearea();">Calculate Area</button>&nbsp;
+	<button onclick="clearfield()">Clear</button>
+	<br/>
+	<br/>
+	
+	<label id="shapearea"></label>
