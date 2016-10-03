@@ -1,5 +1,5 @@
-<?php include('header.php'); ?>
-
+<script src="js/jquery.js"></script>
+<script src="js/file.js"></script>
 <div class="container">
 	
 	<h1>Home Page</h1>
@@ -17,4 +17,4 @@
 		</div>
 	</div>
 </div>
-<?php include('footer.php'); ?>
+
