@@ -17,7 +17,7 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
     //$odb->insertquery($sqlstr);
     
 	//returns the link of the image
-    echo $TARGET_DIR . $newfilename . "." . $fileext;
+    echo $TARGET_DIR . $newfilename;
 	
 } else {
 	echo "Sorry, there was an error uploading your file.";
